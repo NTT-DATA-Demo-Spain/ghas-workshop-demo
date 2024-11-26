@@ -23,8 +23,10 @@ updates:
       interval: "daily"
     assignees:
       - "Guillermo-Martinez-NTT"
-    label:
+    labels:
       - "demodepandabot"
+    reviewers:
+      - "Guillermo-Martinez-NTT"
     commit-message:
       prefix: "pip alert"
   - package-ecosystem: "gradle"
