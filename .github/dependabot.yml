@@ -21,6 +21,12 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    assignees:
+      - "Guillermo-Martinez-NTT"
+    label:
+      - "demodepandabot"
+    commit-message:
+      prefix: "pip alert"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
